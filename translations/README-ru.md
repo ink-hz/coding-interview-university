@@ -2,12 +2,41 @@
 
 Оригинальная версия: [Английский](../README.md) 
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Особые благодарности:</strong>
+    </p>
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
+            </div>
+            <div>
+                <p>
+                    <strong>Master the technical interview without endless grinding.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
+            </div>
+        </a>
+    </div>
+    <hr />
+</div>
+
 ## Для кого это?
 
 Это мой учебный план, рассчитанный на несколько месяцев для веб-разработчиков, не имеющих образования в Computer Science (CS)
 и планирующих работать инженерами-программистами (software engineer) в компании Google. 
 
-![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![Кодирование на доске - из телесериала канала HBO Кремниевая Долина](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 За основу учебного плана я взял список вопросов **Google's coaching notes** и значительно расширил его. Тут вы найдёте 
 много полезных вещей, которые необходимо знать. Дополнительные вопросы я добавил в конец списка: их могут задавать на 
@@ -199,12 +228,6 @@ Google не возьмёт тебя на работу.
 
 [Подробнее о разметке на Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-## Получи гугловское настроение
-
-Напечатай знак "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" и не отводи глаз от желанной добычи.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
 ## Получил ли я работу?
 
 Пока я ожидаю своей очереди. Надеюсь интервью будет скоро.
@@ -217,13 +240,8 @@ Google не возьмёт тебя на работу.
 
 Я ещё на пути к цели. Двигаемся вперёд:
  
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
 - Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
 - LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
-
-![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Не переживайте о том, что вы недостаточно умны
 - Успешные инженеры умные, но многие из них переживают, что недостаточно умны.
@@ -837,25 +855,6 @@ Google не возьмёт тебя на работу.
 
 - Для пирамидальной сортировки, см. структуру данных "Куча" выше. Пирамидальная сортировка эффективна, но не устойчива.
 
-- [ ] [Седжвик (Sedgewick) - Сортировка слиянием (5 видео)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [1. Сортировка слиянием](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
-    - [ ] [2. Сортировка слиянием наизнанку](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2)
-    - [ ] [3. Сложность сортировки](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [4. Компараторы](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [5. Устойчивость](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-
-- [ ] [Седжвик (Sedgewick) - Быстрая сортировка (4 видео)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [1. Быстрая сортировка](https://www.youtube.com/watch?v=5M5A7qPWk84&index=1&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [2. Выбор](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [3. Дублирование ключей](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [4. Системные сортировки](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-
-- [ ] UC Berkeley:
-    - [ ] [CS 61B Лекция 29: Сортировка I (видео)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-    - [ ] [CS 61B Лекция 30: Сортировка II (видео)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-    - [ ] [CS 61B Лекция 32: Сортировка III (видео)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-    - [ ] [CS 61B Лекция 33: Сортировка V (видео)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
-
 - [ ] [Пузырькова сортировка (видео)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ] [Анализ пузырьковой сортировки (видео)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
 - [ ] [Сортировка вставками, Сортировка слиянием (видео)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -969,7 +968,7 @@ Google не возьмёт тебя на работу.
     - когда уместно использование рекурсии?
     - когда лучше использовать хвостовую рекурсию?
         - [ ] [Что такое хвостовая рекурсия и почему её использование нежелательно?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Хвостовая рекурсия (видео)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Хвостовая рекурсия (видео)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Объектно-ориентированное программирование
     - [ ] [Дополнительно: Серия уроков по UML 2.0 (видео)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1291,34 +1290,8 @@ Google не возьмёт тебя на работу.
 
 - [ ] Серия 2-3 минутных короткие видео по темам (23 видео)
     - [Видео](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (18 видео):
+- [ ] Серия коротких 2-5 минутных видео - Michael Sambol (38 видео):
     - [Видео](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Видео от Сэджвика - Алгоритмы I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
-    - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Анализ Алгоритмов](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-    - [ ] [03. Стэки и Очереди](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-    - [ ] [04. Элементарные сортировки](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
-    - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Приоритетные очереди](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-    - [ ] [08. Элементарные таблицы символов](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-    - [ ] [09. Сбалансированные деревья поиска](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-    - [ ] [10. Геометрические применениния BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-    - [ ] [11. Хэш таблицы](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ] [Видео от Сэджвика - Алгоритмы II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-    - [ ] [01. Ненаправленные графы](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-    - [ ] [02. Направленные графы](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
-    - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-    - [ ] [04. Кратчайшие пути](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
-    - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
-    - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-    - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-    - [ ] [08. Поиск подстроки](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [09. Регулярные выражения](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-    - [ ] [10. Сжатие данных](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
-    - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-    - [ ] [12. Линейное программирование](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
-    - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
 
@@ -1343,14 +1316,13 @@ Google не возьмёт тебя на работу.
 
 У вас нет доски дома? Не удивительно. Я немного неормальный и у меня есть большая доска дома. Но вместо доски можно использователь и планшет для рисования из магазина художественных товаров, и практиковаться сидя на диване. Это моя "диванная доска". На фото я положил ручку чтобы иметь вы имели представление о масштабе. Если вы будете пользоваться ручкой, постоянно будет возникать желание что-то исправить и решение захламляется достаточно быстро.
 
-![моя диванная доска](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![моя диванная доска](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Дополнительно:
 
 - [Математика для Топ-кодеров](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Динамическое программирование - От новичка до продвинутого](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Материалы для интервью от MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Упражнения по улучшению навыков для определенного языка](http://exercism.io/languages)
 
 **Прочитайте и выполните упражнения (именно в этом порядке):**
 
@@ -1378,10 +1350,10 @@ Google не возьмёт тебя на работу.
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Возможно:
-- [Тестовые интервьюверы из больших компаний](http://www.gainlo.co/)
+- [Тестовые интервьюверы из больших компаний](http://www.gainlo.co/#!/)
 
 ## Перед собеседованием
 
@@ -1794,10 +1766,6 @@ Google не возьмёт тебя на работу.
     - [ ] [Алгоритм Форд — Фалкерсона (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Транспортные сети (видео)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Непересекающиеся Множества и Система Непересекающихся Множеств
-    - [ ] [UCB 61B - Непересекающиеся Множества; Сортировка и выборка (видео)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
-    - [ ] [Алгоритмы Седжвика - Система непересекающихся множеств (6 видео)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-
 - ### Математика для Быстрой Обработки
     - [ ] [Арифметика целых чисел, Умножение Карацубы (видео)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Китайская теорема об остатках (используется в криптографии) (видео)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
@@ -1840,7 +1808,6 @@ Google не возьмёт тебя на работу.
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Resources:
         - Books:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1945,7 +1912,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1986,7 +1953,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

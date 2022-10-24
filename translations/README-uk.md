@@ -1,34 +1,112 @@
 # Coding Interview University
 
-Original: [англійською](README.md)
+Original in [English](README.md)
+
+> Спочатку я створив це як короткий список завдань для вивчення тем, щоб стати
+інженером-програмістом, але він збільшився до великого списку, який ви бачите
+сьогодні. Пройшовши цей навчальний план,
+[мене найняли розробником програмного забезпечення в Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+>
+> Я навчався приблизно 8-12 годин на день, протягом декількох місяців. Це моя
+історія:
+[Чому я навчався очно протягом 8 місяців для інтерв’ю в Google](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13).
+>
+> Перелічені тут ресурси добре підготують вас до технічної співбесіди практично
+в будь-якій компанії, включаючи гігантів: Amazon, Facebook, Google та
+Microsoft.
+>
+> *Нехай щастить!*
+
+<details>
+<summary>Переклади:</summary>
+
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+- [Polish](translations/README-pl.md)
+- [繁體中文](translations/README-tw.md)
+- [Japanese (日本語)](translations/README-ja.md)
+- [Russian](translations/README-ru.md)
+- [German](translations/README-de.md)
+- [Bahasa Indonesia](translations/README-id.md)
+- [ខ្មែរ - Khmer](translations/README-kh.md)
+
+</details>
+
+<details>
+<summary>Переклади в процесі:</summary>
+
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+
+</details>
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
+            </div>
+            <div>
+                <p>
+                    <strong>Master the technical interview without endless grinding.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
+            </div>
+        </a>
+    </div>
+    <hr />
+</div>
 
 ## Що це?
 
-Це мій багатомісячний навчальний план для перетворення з веб-розробника (самоучки без ступеню з CS)
-на розробника програмного забезпечення у Google.
+Це мій багатомісячний план навчання для переходу від веб-розробника (самоука,
+без ступеня з комп'ютерних наук) до інженера програмного забезпечення для
+великої компанії.
 
 ![Програмування у дошки — з серіалу «Silicon Valley» HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Цей довгий список був видобутий і розширений з **тренувальних нотаток Google**, отже це речі, які ви повинні знати.
-Тут є додаткові пункти, які я додав знизу — вони можуть зустрітися в інтерв’ю або бути корисними у вирішенні завдань.
-Багато пунктів взято з «[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)» Steve Yegge,
-вони іноді дослівно відображаються в тренувальних нотатках Google.
+Цей список призначено
+**для піонерів у сфері розробки програмного забезпечення** або
+тих, хто переходить від кодування/веб-розробки до більш архітектурних,
+інженерних рішень (де потрібні знання комп'ютерних наук). Якщо у вас
+багаторічний досвід і ви стверджуєте, що він таким є, очікуйте більш важкого
+інтерв’ю.
 
-Я обрав, що вам потрібно знати, базуючись на рекомендаціях Yegge. Я вніс зміни до вимог Yegge на основі інформації,
-отриманої від мого контакту у Google. Це призначено для **нових розробників програмного забезпечення** або тих,
-що переходять з веб-розробки на розробку програмного забезпечення (де потрібне знання CS). Якщо у вас багаторічний
-досвід, і ви заявляєте про багаторічний досвід розробки програмного забезпечення, очікуйте на більш жорстке інтерв’ю.
-[Прочитайте більше](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Також якщо у вас є багаторічний досвід кодування/веб-розробки, зверніть увагу,
+що великі компанії-розробники програмного забезпечення, такі як Google, Amazon,
+Facebook та Microsoft, відрізняють розробку програмного забезпечення
+від веб-розробки, і вони потребують знання комп'ютерних наук.
 
-Якщо у вас багато років досвіду веб-розробки, майте на увазі, що Google відрізняє розробку програмного забезпечення
-від веб-розробки, і вони потребують знання Computer Science.
-
-Якщо ви хочете бути інженером з надійності або системним інженером, вчіть більше за опціональним списком (мережі,
-безпека).
+Якщо ви хочете бути інженером з надійності або системним інженером, вчіть
+більше за опціональним списком (мережі, безпека).
 
 ---
 
-## Таблиця контенту
+## Зміст
 
 - [Що це?](#Що-це)
 - [Чому це використовувати?](#Чому-це-використовувати)
@@ -134,7 +212,6 @@ Original: [англійською](README.md)
     - [k-D Trees](#k-d-trees)
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming)
@@ -496,12 +573,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -563,14 +636,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -597,10 +667,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -750,25 +816,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - For heapsort, see Heap data structure above. Heap sort is great, but not stable.
 
-- [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
-    - [ ] [2. Bottom up Mergesort](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2)
-    - [ ] [3. Sorting Complexity](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [4. Comparators](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [5. Stability](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-
-- [ ] [Sedgewick - Quicksort (4 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [1. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&index=1&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [2. Selection](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [3. Duplicate Keys](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [4. System Sorts](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-
-- [ ] UC Berkeley:
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
-
 - [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
 - [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -878,7 +925,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - when it is appropriate to use it
     - how is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
@@ -1287,34 +1334,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (38 videos):
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
-    - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-    - [ ] [03. Stacks and Queues](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-    - [ ] [04. Elementary Sorts](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
-    - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-    - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-    - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-    - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ] [Sedgewick Videos - Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-    - [ ] [01. Undirected Graphs](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-    - [ ] [02. Directed Graphs](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
-    - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-    - [ ] [04. Shortest Paths](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
-    - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
-    - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-    - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-    - [ ] [08. Substring Search](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [09. Regular Expressions](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-    - [ ] [10. Data Compression](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
-    - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-    - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
-    - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
 
@@ -1347,7 +1368,6 @@ Supplemental:
 - [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
 
 **Read and Do Programming Problems (in this order):**
 
@@ -1379,11 +1399,11 @@ Challenge sites:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/)
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/)
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/)
 
 ## Once you're closer to the interview
@@ -1442,11 +1462,11 @@ You're never really done.
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     Everything below this point is optional.
     By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
     any software engineering job. You'll be a much more well-rounded software engineer.
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1496,7 +1516,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Unix command line tools
     - I filled in the list below from good tools.
@@ -1740,10 +1759,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
@@ -1786,7 +1801,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Resources:
         - Books:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1881,7 +1895,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1922,7 +1936,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

@@ -29,6 +29,35 @@ Ghi chú riêng cho việc duy trì và cập nhật bản dịch tiếng Việt
 >
 > *Chúc may mắn!*
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
+            </div>
+            <div>
+                <p>
+                    <strong>Master the technical interview without endless grinding.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
+            </div>
+        </a>
+    </div>
+    <hr />
+</div>
+
 ## Giới thiệu
 
 Đây là kế hoạch học tập trong nhiều tháng của tôi, để từ một nhà phát triển web (tự học, không có bằng cấp về Khoa Học Máy Tính - KHMT) trở thành một kỹ sư phần mềm ở Google.
@@ -152,7 +181,6 @@ Thêm vào đó, nếu bạn muốn trở thành một kỹ sư hệ thống (Sy
     - [k-D Trees](#k-d-trees)
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
     - [Math for Fast Processing](#math-for-fast-processing)
     - [Treap](#treap)
     - [Linear Programming](#linear-programming)
@@ -535,12 +563,8 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
     - [ ] Miêu tả, tên gốc được giữ nguyên kèm với bản dịch sang tiếng Việt:
         - [Arrays - Mảng (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays - Mảng tuyến tính và mảng đa chiều(video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays - Mảng cơ bản (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-dim - Đa chiều(video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Dynamic Arrays - Mảng tùy biến (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays - Mảng trong mảng (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays - Mảng trong mảng (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Resizing arrays - Mảng có thể tùy biến kích thước (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
         - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
         - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
@@ -602,14 +626,11 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out - Sử dụng stack Vào-Cuối-Ra-Trước (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Sẽ không cài đặt. Cài đặt với mảng là điều hiển nhiên.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out -  Sử dụng hàng đợi Vào-Trước-Ra-Trước(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues - Hàng đợi ưu tiên (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] Cài đặt sử dụng danh sách liên kết, áp dụng con trỏ đuôi:
         - enqueue(value) - Thêm giá trị ở đuôi
         - dequeue() - Trả về giá trị của dữ liệu được thêm vào xa nhất (thông thường là dữ liệu đầu tiên trong danh sách)
@@ -634,10 +655,6 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
     - [ ] Các khóa học online:
-        - [ ] [Understanding Hash Functions - Hiểu hàm băm (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [Using Hash Tables - Sử dụng bảng băm (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [Supporting Hashing - Hỗ trợ băm(video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [Language Support Hash Tables - Ngôn ngữ hỗ trợ bảng băm (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables - Cơ bản về bảng băm (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures - Cấu trúc dữ liệu (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem - Vấn đề sổ điện thoại (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -791,25 +808,6 @@ Hãy viết code trên bảng đen hoặc trên giấy. Đừng sử dụng máy
 
 - Với sắp xếp vun đống (Heapsort), xem lại see cấu trúc Heap ở trên. Sắp xếp vun đống tốt, nhưng không ổn định.
 
-- [ ] [Sedgewick - Mergesort (5 videos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
-    - [ ] [2. Sắp xếp trộn từ dưới lên (Bottom up Mergesort)](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2)
-    - [ ] [3. Độ phức tạp của các thuật toán sắp xếp (Sorting Complexity)](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [4. Các hàm so sánh (Comparators)](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [5. Tính ổn định (Stability)](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-
-- [ ] [Sedgewick - Quicksort (4 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [1. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&index=1&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [2. Cách chọn (Selection)](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [3. Lặp khóa (Duplicate Keys)](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [4. Các hệ thống sắp xếp (System Sorts)](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-
-- [ ] UC Berkeley (chuỗi video bài giảng):
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C)
-
 - [ ] [Sắp xếp nổi bọt (Bubble Sort) - video](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
 - [ ] [Phân tích thuật toán sắp xếp nổi bọt (Analyzing Bubble Sort) - video](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
 - [ ] [Sắp xếp chèn và sắp xếp trộn (Insertion Sort, Merge Sort) - video](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -924,7 +922,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - Khi nào thích hợp để sử dụng?
     - Đệ quy đuôi tốt hơn hay không như thế nào?
         - [ ] [Đệ quy đuôi là gì Tại sao nó không tốt(What Is Tail Recursion Why Is It So Bad)?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Đệ quy đuôi (Tail Recursion) (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Đệ quy đuôi (Tail Recursion) (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Quy hoạch động
     - Chủ đề này có thể hơi khó, và các bài toán giải được bằng quy hoạch động (Dynamic Programming - DP) phải được định nghĩa ở dạng quan hệ hồi quy, và tìm ra giải pháp quy hoạch động cũng không đơn giản.
@@ -1324,34 +1322,8 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 - [ ] Các video ngắn 2-3 phút (23 video)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Các video ngắn 2-5 phút - Michael Sambol (18 video)
+- [ ] Các video ngắn 2-5 phút - Michael Sambol (38 video)
     - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Thuật toán I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
-    - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-    - [ ] [03. Stacks and Queues](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-    - [ ] [04. Elementary Sorts](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
-    - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-    - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-    - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-    - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ] [Sedgewick Videos - Thuật toán II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-    - [ ] [01. Undirected Graphs](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-    - [ ] [02. Directed Graphs](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
-    - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-    - [ ] [04. Shortest Paths](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
-    - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
-    - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-    - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-    - [ ] [08. Substring Search](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [09. Regular Expressions](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-    - [ ] [10. Data Compression](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
-    - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-    - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
-    - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
 
@@ -1384,7 +1356,6 @@ Phụ lục:
 - [Toán học cho nhà lập trình hàng đầu (Mathematics for Topcoders)](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
 - [Quy hoạch động - Từ cơ bản đến nâng cao (Dynamic Programming – From Novice to Advanced)](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Các tài liệu liên quan tới phỏng vấn của MIT (MIT Interview Materials)](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Các bài tập để lập trình tốt hơn đối với ngôn ngữ được lựa chọn (Exercises for getting better at a given language)](http://exercism.io/languages)
 
 **Đọc và làm các bài tập về lập trình (theo thứ tự sau):**
 
@@ -1412,10 +1383,10 @@ Các trang giải toán lập trình:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Xem thêm:
-- [Phỏng vấn thử nghiệm](http://www.gainlo.co/)
+- [Phỏng vấn thử nghiệm](http://www.gainlo.co/#!/)
 
 
 ## Khi bạn tiến gần đến kỳ phỏng vấn
@@ -1531,7 +1502,6 @@ Bạn không bao giờ thực sự học xong!
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
 - ### Các công cụ chạy trên dòng lệnh của Unix
     - Được đề xuất bởi Yegge, từ một bài đăng tuyển dụng cũ của Amazon.
@@ -1749,10 +1719,6 @@ Bạn không bao giờ thực sự học xong!
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
@@ -1795,7 +1761,6 @@ Bạn không bao giờ thực sự học xong!
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Tài nguyên:
         - Sách:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1898,7 +1863,7 @@ Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1939,7 +1904,7 @@ Hãy ngồi xuống và thưởng thức. "Luyện kỹ năng với Netflix" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

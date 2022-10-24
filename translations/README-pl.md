@@ -38,12 +38,39 @@
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
 
 </details>
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
+            </div>
+            <div>
+                <p>
+                    <strong>Master the technical interview without endless grinding.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
+            </div>
+        </a>
+    </div>
+    <hr />
+</div>
 ## Co to jest?
 
 To jest mój wielomiesięczny plan nauki od przejścia od programisty (samouka, bez dyplomu CS - informatyki) do inżyniera oprogramowania dla dużej firmy.
@@ -486,12 +513,8 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
     - [ ] Opis:
         - [Arrays (wideo)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (wideo)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (wideo)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-dim (wideo)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [Dynamic Arrays (wideo)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (wideo)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (wideo)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Resizing arrays (wideo)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Zaimplementuj vector (mutable array z automatycznym zmienianiem rozmiaru):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -554,14 +577,11 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
 
 - ### Stos
     - [ ] [Stacks (wideo)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (wideo)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Kolejka
-    - [ ] [Using Queues First-In First-Out(wideo)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (wideo)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (wideo)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -588,10 +608,6 @@ Napisz kod na tablicy lub papierze, a nie na komputerze. Testuj z niektórymi pr
         - [ ] [(Zaawansowane) Perfect hashing (wideo)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] Kursy online:
-        - [ ] [Understanding Hash Functions (wideo)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [Using Hash Tables (wideo)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [Language Support Hash Tables (wideo)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [Core Hash Tables (wideo)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [Data Structures (wideo)](https://www.coursera.org/learn/data-structures/home/week/4)
         - [ ] [Phone Book Problem (wideo)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -867,7 +883,7 @@ Grafy mogą być wykorzystane do przedstawienia wielu problemów w informatyce, 
     - when it is appropriate to use it
     - how is tail recursion better than not?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (wideo)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (wideo)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Programowanie dynamiczne
     - Prawdopodobnie nie będziesz mieć programowania dynamicznego podczas swojej rekrutacji, ale warto umieć rozpoznawać problem, jako kandydata na ten właśnie rodzaj.
@@ -1225,7 +1241,7 @@ Trie to drzewo węzłów, które obsługuje operacje Znajdź i Wstaw [etc (...)]
 
 - [ ] Seria 2-3 minutowych, krótkich filmów tematycznych (23 wideo)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Seria 2–5 minutowych, krótkich filmów tematycznych - Michael Sambol (18 wideo):
+- [ ] Seria 2–5 minutowych, krótkich filmów tematycznych - Michael Sambol (38 wideo):
     - [Wideo](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick Videos - Algorytmy I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorytmy II](https://www.coursera.org/learn/algorithms-part2)
@@ -1260,7 +1276,6 @@ Uzupełniające:
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
 
 **Przeczytaj i wykonaj zadania z programowania (w tej kolejności):**
 
@@ -1298,7 +1313,7 @@ Challenge sites:
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 
 Language-learning sites, with challenges:
@@ -1312,7 +1327,7 @@ Challenge repos:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
 
@@ -1658,7 +1673,7 @@ Tak na prawdę nigdy nie skończyłeś.
         - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (wideo)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (wideo)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
 
     - **2-3 search trees**
         - In practice:
@@ -1763,7 +1778,6 @@ Tak na prawdę nigdy nie skończyłeś.
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
     - Resources:
         - Books:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1874,7 +1888,7 @@ Usiądź i spędź miło czas. "Netflix and skill" :P
 
 - [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [Discrete Mathematics by Shai Simonson (19 wideo)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Discrete Mathematics by Shai Simonson (19 wideo)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [Discrete Mathematics Part 1 by Sarada Herke (5 wideo)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1915,7 +1929,7 @@ Usiądź i spędź miło czas. "Netflix and skill" :P
 
 - [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Programming Paradigms (27 wideo)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Programming Paradigms (27 wideo)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)

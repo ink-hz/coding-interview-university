@@ -38,8 +38,36 @@ Traduções em progresso:
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-    
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
+            </div>
+            <div>
+                <p>
+                    <strong>Master the technical interview without endless grinding.</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Created by ex-Google engineers, AlgoMonster will help you crush the technical interview in less time 
+                and with fewer sleepless nights grinding away random problems. You will learn the key patterns necessary to solve 
+                any interview question and gain the systematic knowledge you need to prove your expertise. Be more confident 
+                as you walk into that interview!</sup>
+            </div>
+        </a>
+    </div>
+    <hr />
+</div>
+
 ## O que é isso?
 
 Esse é o meu plano de estudo mensal para ir de desenvolvedor web (autodidata, sem formação em Ciência da Computação) à engenheiro de software em uma grande empresa.
@@ -162,7 +190,6 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
     - [Árvores k-D](#Árvores-k-d)
     - [Skiplists](#skiplists)
     - [Fluxos de Rede](#fluxos-de-rede)
-    - [Conjuntos Disjuntos e Union-find](#conjuntos-disjuntos-e-union-find)
     - [Matemática para Processamento Rápido](#matemática-para-processamento-rápido)
     - [Treap](#treap)
     - [Programação Linear](#programação-linear-vídeos)
@@ -399,7 +426,7 @@ Essa lista cresceu por longos meses, e sim, ela meio que saiu do controle!
 
 ### 1. Você não se lembrará de tudo
 
-Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotaçes e fazendo flashcards para que eu pudesse relembrar.
+Assisti a horas de vídeos e fiz anotações e meses depois havia muito que eu não lembrava. Eu passei 3 dias revisando minhas anotações e fazendo flashcards para que eu pudesse relembrar.
 
 Por favor, leia para que você não cometa os meus erros:
 
@@ -519,12 +546,8 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
     - [ ] Descrição:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s) (Arrays lineares e multidimensionais - vídeo)
-        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4) (Arrays básicos - vídeo)
-        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4) (Multidimensionais - vídeo)
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (Arrays Dinâmicos - vídeo)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (Arrays Multidimensionais - vídeo)
-        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4) (Arrays Multidimensionais - vídeo)
-        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4) (Arrays Dinâmicos)
     - [ ] Implementar um vetor (array mutável com redimensionamento automático):
         - [ ] Praticar programação usando arrays e ponteiros, e matemática de ponteiros para pular para um índice ao invés de usar indexação.
         - [ ] novo array de dados brutos com memória alocada
@@ -587,14 +610,11 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4) (Usando Stacks Último a Entrar Primeiro a Sair - vídeo)
     - [ ] Não implementarei. Implementar com array é trivial.
 
 - ### Queue (Fila)
-    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4) (Usando queues FIFO(Primeiro a entrar, último a sair) - vídeo)
     - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) (Buffer circular/Primeiro a entrar, último a sair)
-    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4) (Queues com Prioridade - vídeo)
     - [ ] Implementar usando lista ligada, com ponteiro de cauda (aponta para o último elemento de uma lista):
         - enqueue(valor) - adiciona "valor" na posição na cauda (final da lista)
         - dequeue() - retorna um valor e remove o elemento menos recentemente adicionado (início da lista))
@@ -621,10 +641,6 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4) ((Avançado) Hashing perfeito - vídeo)
 
     - [ ] Cursos Online:
-        - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4) (Compreendendo Funções Hash - vídeo)
-        - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4) (Usando Tabelas Hash - vídeo)
-        - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4) (Hashing de Suporte - vídeo)
-        - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4) (Tabelas Hash de Suporte de Linguagem - vídeo)
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables) (Fundamentos de Tabelas Hash - vídeo)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3) (Estruturas de Dados - vídeo)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem) (Problema da Lista Telefônica (vídeo) )
@@ -774,25 +790,6 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 
 - Para heapsort, veja estrutura de dados heap acima. Heapsort é ótimo, mas não é estável.
 
-- [ ] [Sedgewick - Mergesort (5 vídeos)](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [1. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=1)
-    - [ ] [2. Bottom up Mergesort](https://www.youtube.com/watch?v=HGOIGUYjeyk&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9&index=2) (Mergesort de baixo para cima)
-    - [ ] [3. Sorting Complexity](https://www.youtube.com/watch?v=WvU_mIWo0Ac&index=3&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9) (Complexidade de Ordenação)
-    - [ ] [4. Comparators](https://www.youtube.com/watch?v=7MvC1kmBza0&index=4&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9) (Comparadores)
-    - [ ] [5. Stability](https://www.youtube.com/watch?v=XD_5iINB5GI&index=5&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9) (Estabilidade)
-
-- [ ] [Sedgewick - Quicksort (4 vídeos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [1. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&index=1&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [2. Selection](https://www.youtube.com/watch?v=CgVYfSyct_M&index=2&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1) (Seleção)
-    - [ ] [3. Duplicate Keys](https://www.youtube.com/watch?v=WBFzOYJ5ybM&index=3&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1) (Chaves Duplicadas)
-    - [ ] [4. System Sorts](https://www.youtube.com/watch?v=rejpZ2htBjE&index=4&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1) (Ordenações de Sistema)
-
-- [ ] Universidade da Califórnia em Berkeley:
-    - [ ] [CS 61B Lecture 29: Sorting I (video)](https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29) (Ciência da Computação 61B Aula 29: Ordenação I - vídeo)
-    - [ ] [CS 61B Lecture 30: Sorting II (video)](https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30) (Ciência da Computação 61B Aula 30: Ordenação II - vídeo)
-    - [ ] [CS 61B Lecture 32: Sorting III (video)](https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C) (Ciência da Computação 61B Aula 32: Ordenação III - vídeo)
-    - [ ] [CS 61B Lecture 33: Sorting V (video)](https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C) (Ciência da Computação 61B Aula 33: Ordenação V - vídeo)
-
 - [ ] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB) (Ordenação por Bolha - vídeo)
 - [ ] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB) (Analisando Ordenação por Bolha - vídeo)
 - [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Ordenação por Inserção, Ordenação por Mistura - vídeo)
@@ -902,7 +899,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - quando é apropriado usá-la
     - como a recursão de cauda é melhor do que nada?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad) (O Que É Recursão de Cauda E Por Que Ela É Tão Ruim?)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc) (Recursão de Cauda - vídeo)
+        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1) (Recursão de Cauda - vídeo)
 
 - ### Programação Dinâmica
     - Esse assunto pode ser bem difícil, já que cada problema solúvel de PD deve ser definido como uma relação de recursão, e isso pode ser complicado.
@@ -1132,17 +1129,17 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - Note que há tipos diferentes de tries. Alguns tem prefixos, alguns não, e alguns usam string ao invés de bits
         para rastrear o caminho.
     - Eu li todo o código, mas não irei implementar.
-    - [ ] [Sedgewick - Tries (3 vídeos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [1. Tries R-Way](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-        - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ) (Tries de Busca Ternária)
-        - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1) (Operações Baseadas Em Caracteres)
+    - [ ] [Sedgewick - Tries (3 vídeos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        - [ ] [1. Tries R-Way](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries) (Tries de Busca Ternária)
+        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations) (Operações Baseadas Em Caracteres)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries) (Anotações sobre Estruturas de Dados e Técnicas de Programação)
     - [ ] Vídeos de cursos curtos:
         - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries) (Introdução À Tries - vídeo)
         - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries) (Desempenho De Tries - vídeo)
         - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie) (Implementando Uma Trie - vídeo)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure) (A Trie: Uma Estrutura de Dados Negligenciada)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) (TopCoder - Usando Tries)
+    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries) (TopCoder - Usando Tries)
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU) (Aula de Stanfort (caso de uso no mundo real) - vídeo)
     - [ ] [MIT, Advanced Data Structures, Strings (pode ficar bem obscuro pela metade)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) (MIT, Estruturas De Dados Avançadas, Strings)
 
@@ -1313,34 +1310,8 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
 
 - [ ] Séries de vídeos curtos (2 - 3 minutos) sobre o assunto (23 vídeos)
     - [Vídeos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (18 vídeos):
+- [ ] Séries de vídeos curtos (2 - 5 minutos) sobre o assunto - Michael Sambol (38 vídeos):
     - [Vídeos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd) (Vídeos de Sedgewick - Algoritmos I)
-    - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0) (Análises de Algoritmos)
-    - [ ] [03. Stacks and Queues](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh) (Memórias Estáticas e Filas)
-    - [ ] [04. Elementary Sorts](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd) (Ordenações Elementares)
-    - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5) (Filas Prioritárias)
-    - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG) (Tabelas de Símbolos Elementares)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu) (Árvores de Busca Balanceadas)
-    - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx) (Aplicações Geométricas de Árvores de Busca Balanceada)
-    - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11) (Tabelas Hash)
-- [ ] [Sedgewick Videos - Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50) (Vídeos de Sedgewick - Algoritmos II)
-    - [ ] [01. Undirected Graphs](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM) (Grafos Não Direcionados)
-    - [ ] [02. Directed Graphs](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K) (Grafos Direcionados)
-    - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj) (Árvores de Extensão Mínima)
-    - [ ] [04. Shortest Paths](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD) (Menores Caminhos)
-    - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma) (Fluxo Máximo)
-    - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53) (Ordenações Radix)
-    - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ) (Árvore de Prefixos)
-    - [ ] [08. Substring Search](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66) (Busca de Substring)
-    - [ ] [09. Regular Expressions](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh) (Expressões Regulares)
-    - [ ] [10. Data Compression](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ) (Compressão de Dados)
-    - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF) (Reduções)
-    - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1) (Programação Linear)
-    - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S) (Intratabilidade)
 
 ---
 
@@ -1373,7 +1344,6 @@ Suplementar:
 - [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/) (Matemática para Topcoders)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/) (Programação Dinâmica - De Novato a Avançado)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) (Materiais de Entrevista do MIT)
-- [Exercises for getting better at a given language](http://exercism.io/languages) (Exercícios para ficar melhor em uma determinada linguagem)
 
 **Leia e Faça os Problemas de Programação (nessa ordem):**
 
@@ -1406,14 +1376,14 @@ Websites de desafios:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Repositórios de desafios:
 - [Interactive Coding Interview Challenges in Python](https://github.com/donnemartin/interactive-coding-challenges) (Desafios Interativos de Entrevista de Programação em Python)
 
 Entrevistas Simuladas:
-- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/)
+- [Gainlo.co: Entrevistas simuladas com entrevistadores de grandes empresas](http://www.gainlo.co/#!/)
 - [Pramp: Entrevistas simuladas com colegas](https://www.pramp.com/)
 - [Refdash: Entrevistas simuladas](https://refdash.com/)
 
@@ -1525,7 +1495,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc) (Tutorial de Emacs (Iniciantes) - Parte 3 - Expressões, Declarações, arquivo ~/. emacs e pacotes)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc) (Modo Evil: Ou, Como Eu Aprendi A Parar De Me Preocupar E Amar O Emacs - vídeo)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs) (Escrevendo Programas Em C Com Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk) ((talvez) Análise Profunda do Modo Org: Gerenciando Estrutura - vídeo)
 
 - ### Ferramentas de linha de comando do Unix
     - Eu preenchi a lista abaixo com boas ferramentas.
@@ -1769,10 +1738,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0) (Algoritmo de Ford-Fulkerson)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI) (Fluxos de Rede - vídeo)
 
-- ### Conjuntos Disjuntos e Union-find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21) (UCB 61B - Conjuntos Disjuntos; Ordenação e seleção - vídeo)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t) (Algoritmos de Sedgewick - Union-find - 6 vídeos)
-
 - ### Matemática para Processamento Rápido
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Aritmética de Números Inteiros, Multiplicação de Karatsuba - vídeo)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg) (O Teorema Chinês do Resto)
@@ -1815,7 +1780,6 @@ Esses tópicos provavelmente não aparecerão em uma entrevista, mas eu adicione
         - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730) (Nanodegree de Aprendizagem Profunda da Google)
         - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009) (Nanodegree de Engenheiro de Aprendizado de Máquina da Google/Kaggle)
         - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive) (Nanodegree de Engenheiro de Carro Autônomo)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science) (Curso Online do Metis - US$99 por 2 meses)
     - Recursos:
         - Livros:
             - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/) (Aprendizado de Máquina em Python)
@@ -1910,7 +1874,7 @@ Sente-se e aproveite. "Netflix e habilidade" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy) (Ciência da Computação 70, 001 - Primavera de 2005 - Matemática Discreta e Teoria de Probabilidade)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG) (Matemática Discreta por Shai Simonson - 19 vídeos)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t) (Matemática Discreta por Shai Simonson - 19 vídeos)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo) (Matemática Discreta Parte 1 por Sarada Herke - 5 vídeos)
 
@@ -1951,7 +1915,7 @@ Sente-se e aproveite. "Netflix e habilidade" :P
 
 - [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh) (MIT 6.858 Segurança de Sistemas de Computador, Outono de 2014)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02) (Stanford: Paradigmas de Programação - 27 vídeos)
+- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02) (Stanford: Paradigmas de Programação - 27 vídeos)
 
 - [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy) (Introdução a Criptografia por Christof Paar)
     - [Website de Curso junto com Slides e Conjuntos de Problemas](http://www.crypto-textbook.com/)

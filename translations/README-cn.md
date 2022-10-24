@@ -1,12 +1,38 @@
-# Coding Interview University
+# 编程面试大学
 
-原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
+原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
 
 我每天自学8~12小时，这样持续了好几个月。这是我的故事：[为什么我为了 Google 面试而自学了8个月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)。
 
 在这份清单内的主题会让你拥有足够的知识去面对几乎每家软件公司的技术面试，包括科技巨头：Amazon、Facebook、Google，以及 Microsoft。
 
 祝你好运!
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
+    </p>
+    <p>
+        <strong>特别感谢:</strong>
+    </p>
+    <div>
+        <a href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/algo-monster.png" width="300" alt="AlgoMonster">
+            </div>
+            <div>
+                <p>
+                    <strong>算法秘籍，模版刷题效率翻倍，上岸大厂必备</strong>
+                </p>
+            </div>
+            <div>
+                <sup>谷歌工程师们浓缩多年刷题经验，呕心沥血总结出的最强算法题型详解，提炼精华模版，由浅入深，简单易懂，举一反三。助你一扫刷题烦恼，一览众山小，高处不胜寒。早日上岸，圆梦大厂。</sup>
+            </div>
+        </a>
+    </div>
+    <hr />
+</div>
 
 ## 这是？
 
@@ -149,48 +175,56 @@
 
 下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
 
-在学习过程中，我使用 GitHub 特殊语法的 markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
+在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
 
-**创建一个新的分支，以便你可以像这样去勾选计划的进展：直接往方括号中填写一个字符 x 即可：[x]**。
+- [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-    Fork一个分支，并跟随以下的指令
+### 如果你不想使用 Git
 
-通过单击 Fork 按钮来 fork GitHub 仓库：[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+在该页面上，单击顶部附近的 Code 按钮，然后单击“Download ZIP”。解压文件，就可以使用文本文件了。
 
-    克隆项目到本地
+如果你打开一个代码编辑器，你会看到所有格式都很好。
 
-`git checkout -b progress`
+![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+### 如果你不介意 Git
 
-`git fetch --all`
+1. 通过单击 Fork 按钮来 fork GitHub 仓库：`https://github.com/jwasham/coding-interview-university`
 
-    在你完成了一些修改后，在框框中打 x
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-`git add .`
+2. 克隆项目到本地：
 
-`git commit -m "Marked x"`
+    ```sh
+    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    cd coding-interview-university
+    git checkout -b progress
+    git remote add jwasham https://github.com/jwasham/coding-interview-university
+    git fetch --all
+    ```
 
-`git rebase jwasham/main`
+3. 在你完成了一些修改后，在框框中打 x：
 
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[更多关于 Github-flavored markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
+    ```sh
+    git add .
+    git commit -m "Marked x"
+    git rebase jwasham/main
+    git push --set-upstream origin progress
+    git push --force
+    ```
 
 ## 不要觉得自己不够聪明
 
 - 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
-- [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- 下面的视频可以帮助你克服这种不安全感：
+    - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
+    - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## 相关视频资源
 
 部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
 
-    很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
+很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，比如 YouTube 视频，以代替那些在线课程的视频。此外，一些大学的讲座视频也是我所青睐的。
 
 ## 面试过程 & 通用的面试准备
 
@@ -225,7 +259,7 @@
 - Java
 - Python
 
-你也可以使用下面两种编程语言，但可能会有某些限制，你需要实现查明：
+你也可以使用下面两种编程语言，但可能会有某些限制，你需要事先查明：
 
 - JavaScript
 - Ruby
@@ -442,12 +476,8 @@
     - [ ] 介绍：
         - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - 线性数组和多维数组（视频）](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE)（从15分32秒开始）
-        - [数组的基础知识（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [多维数组（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
         - [动态数组（视频）](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [不规则数组（视频）](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [不规则数组（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [调整数组的大小（视频）](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] 实现一个动态数组（可自动调整大小的可变数组）：
         - [ ] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
         - [ ] 通过分配内存来新建一个原生数据型数组
@@ -507,14 +537,11 @@
 
 - ### 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用堆栈 —— 后进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
 - ### 队列（Queue）
-    - [ ] [使用队列 —— 先进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [优先级队列（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
     - [ ] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
@@ -540,10 +567,6 @@
         - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] 在线课程：
-        - [ ] [理解哈希函数（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [使用哈希表（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [支持哈希（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [哈希表的语言支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
         - [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
@@ -814,7 +837,7 @@
     - 什么时候适合使用
     - 尾递归会更好么?
         - [ ] [什么是尾递归以及为什么它如此糟糕?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [尾递归（视频）](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [尾递归（视频）](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### 动态规划（Dynamic Programming）
     - 在你的面试中或许没有任何动态规划的问题，但能够知道一个题目可以使用动态规划来解决是很重要的。
@@ -1167,7 +1190,7 @@
 
 - [ ] 2-3分钟的简短主题视频系列（23个视频）
     - [视频](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] 2-5分钟的简短主题视频系列──Michael Sambol（18个视频）：
+- [ ] 2-5分钟的简短主题视频系列──Michael Sambol (38个视频）：
     - [视频](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
 - [ ] [Sedgewick 视频 ── 算法I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick 视频 ── 算法II](https://www.coursera.org/learn/algorithms-part2)
@@ -1198,7 +1221,6 @@
 - [Topcoder的数学](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [动态编程──从新手到高级](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT 面试材料](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [练习以掌握特定语言](http://exercism.io/languages)
 
 **阅读并练习编程问题（按此顺序）**：
 
@@ -1237,9 +1259,10 @@
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [http://www.geeksforgeeks.org/](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Project Euler (数学方向为主)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com/)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 语言学习网站，附带编码挑战：
 
@@ -1255,7 +1278,7 @@
 
 模拟面试：
 
-- [Gainlo.co：来自大公司的模拟面试官](http://www.gainlo.co/)──我使用了它，它帮助我减轻了电话屏幕和现场面试的压力
+- [Gainlo.co：来自大公司的模拟面试官](http://www.gainlo.co/#!/)──我使用了它，它帮助我减轻了电话屏幕和现场面试的压力
 - [Pramp：模拟来自/与同行的面试](https://www.pramp.com/)──点对点方式练习面试
 - [Refdash：模拟面试和加急面试](https://refdash.com/)──跳过与科技公司的多次面试，帮助求职者快速追踪
 - [interviewing.io：与高级工程师进行模拟面试](https://interviewing.io/)──与来自 FAANG（译者注：Facebook, Amazon, Apple, Netflix and Google） 的高级工程师进行匿名算法/系统设计面试。
@@ -1675,7 +1698,6 @@
         - [Google 深度学习微学位](https://www.udacity.com/course/deep-learning--ud730)
         - [Google/Kaggle 机器学习工程师微学位](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
         - [无人驾驶工程师微学位](https://www.udacity.com/drive)
-        - [Metis 在线课程 (两个月 99 美元)](http://www.thisismetis.com/explore-data-science)
     - 资源:
         - 书籍：
             - [Python 机器学习](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1787,7 +1809,7 @@
 
 - [计算机科学 70, 001 - 2015 年春季 - 离散数学和概率理论](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [离散数学 (19 个视频)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [离散数学 (19 个视频)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [离散数学（第一部分），Sarada Herke （5个视频）](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1828,7 +1850,7 @@
 
 - [MIT 6.858：计算机系统安全, 2014 年秋季](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [斯坦福: 编程范例 (27 个视频)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [斯坦福: 编程范例 (27 个视频)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [密码学导论，Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [课程网站以及幻灯片和问题集](http://www.crypto-textbook.com/)
